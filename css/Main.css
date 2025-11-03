@@ -66,31 +66,31 @@
 }
 
     .listaimagen[name=github] {
-        mask-image: url("./images/Portafolio/github.svg");
-        -webkit-mask-image: url("/images/Portafolio/github.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/github.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/github.svg");
         background: #1f1f1f;
     }
 
     .listaimagen[name=linkedin] {
-        mask-image: url("images/Portafolio/linkedin.svg");
+        mask-image: url("/images/Portafolio/linkedin.svg");
         -webkit-mask-image: url("/images/Portafolio/linkedin.svg");
         background: #0A66B5;
     }
 
     .listaimagen[name=fiverr] {
-        mask-image: url("images/Portafolio/fiverr.svg");
+        mask-image: url("/images/Portafolio/fiverr.svg");
         -webkit-mask-image: url("/images/Portafolio/fiverr.svg");
         background: #25D366;
     }
 
     .listaimagen[name=portafolio] {
-        mask-image: url("images/Portafolio/Portfolio.svg");
+        mask-image: url("/images/Portafolio/Portfolio.svg");
         -webkit-mask-image: url("/images/Portafolio/Portfolio.svg");
         background: #fff;
     }
     /*Enntretenimiento*/
     .listaimagen[name=youtube] {
-        mask-image: url("images/Canales/youtube.svg");
+        mask-image: url("/images/Canales/youtube.svg");
         -webkit-mask-image: url("/images/Canales/youtube.svg");
         background: #ff002e;
     }
