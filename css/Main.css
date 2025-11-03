@@ -72,49 +72,49 @@
     }
 
     .listaimagen[name=linkedin] {
-        mask-image: url("/images/Portafolio/linkedin.svg");
-        -webkit-mask-image: url("/images/Portafolio/linkedin.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/linkedin.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/linkedin.svg");
         background: #0A66B5;
     }
 
     .listaimagen[name=fiverr] {
-        mask-image: url("/images/Portafolio/fiverr.svg");
-        -webkit-mask-image: url("/images/Portafolio/fiverr.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/fiverr.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/fiverr.svg");
         background: #25D366;
     }
 
     .listaimagen[name=portafolio] {
-        mask-image: url("/images/Portafolio/Portfolio.svg");
-        -webkit-mask-image: url("/images/Portafolio/Portfolio.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/Portfolio.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Portafolio/Portfolio.svg");
         background: #fff;
     }
     /*Enntretenimiento*/
     .listaimagen[name=youtube] {
-        mask-image: url("/images/Canales/youtube.svg");
-        -webkit-mask-image: url("/images/Canales/youtube.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Canales/youtube.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Canales/youtube.svg");
         background: #ff002e;
     }
 
     .listaimagen[name=twitch] {
-        mask-image: url("images/Canales/twitch.svg");
-        -webkit-mask-image: url("/images/Canales/twitch.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Canales/twitch.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Canales/twitch.svg");
         background: #a970ff;
     }
     /*Contacto*/
     .listaimagen[name=instagram] {
-        mask-image: url("images/Contacto/instagram.svg");
-        -webkit-mask-image: url("/images/Contacto/instagram.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Contacto/instagram.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Contacto/instagram.svg");
         background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
     }
 
     .listaimagen[name=discord] {
-        mask-image: url("images/Contacto/Discord.svg");
-        -webkit-mask-image: url("/images/Contacto/Discord.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Contacto/Discord.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Contacto/Discord.svg");
         background: #5865F1;
     }
 
     .listaimagen[name=whatsapp] {
-        mask-image: url("images/Contacto/whatsapp.svg");
-        -webkit-mask-image: url("/images/Contacto/whatsapp.svg");
+        mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Contacto/whatsapp.svg");
+        -webkit-mask-image: url("https://kevinrodigowawryniuk.github.io/Enlazador/images/Contacto/whatsapp.svg");
         background: #25D366;
     }
