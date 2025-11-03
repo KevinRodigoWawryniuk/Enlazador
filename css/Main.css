@@ -1,0 +1,120 @@
+﻿
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separador {
+    width: 50%;
+}
+
+.seccion {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo {
+    width: 100%;
+    text-align: center;
+}
+
+.listacontenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 0;
+    list-style: none;
+}
+
+.lista {
+    width: 5em;
+    height: 5em;
+    margin: 1rem 0;
+    padding: .5rem;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+
+    .lista:hover {
+        width: 6em;
+        height: 6em;
+        padding: .6rem;
+        background: #bababa;
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+        transition: all .3s linear;
+    }
+
+.listaimagen {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+
+    .listaimagen[name=github] {
+        mask-image: url("/images/Portafolio/github.svg");
+        -webkit-mask-image: url("/images/Portafolio/github.svg");
+        background: #1f1f1f;
+    }
+
+    .listaimagen[name=linkedin] {
+        mask-image: url("/images/Portafolio/linkedin.svg");
+        -webkit-mask-image: url("/images/Portafolio/linkedin.svg");
+        background: #0A66B5;
+    }
+
+    .listaimagen[name=fiverr] {
+        mask-image: url("/images/Portafolio/fiverr.svg");
+        -webkit-mask-image: url("/images/Portafolio/fiverr.svg");
+        background: #25D366;
+    }
+
+    .listaimagen[name=portafolio] {
+        mask-image: url("/images/Portafolio/Portfolio.svg");
+        -webkit-mask-image: url("/images/Portafolio/Portfolio.svg");
+        background: #fff;
+    }
+    /*Enntretenimiento*/
+    .listaimagen[name=youtube] {
+        mask-image: url("/images/Canales/youtube.svg");
+        -webkit-mask-image: url("/images/Canales/youtube.svg");
+        background: #ff002e;
+    }
+
+    .listaimagen[name=twitch] {
+        mask-image: url("/images/Canales/twitch.svg");
+        -webkit-mask-image: url("/images/Canales/twitch.svg");
+        background: #a970ff;
+    }
+    /*Contacto*/
+    .listaimagen[name=instagram] {
+        mask-image: url("/images/Contacto/instagram.svg");
+        -webkit-mask-image: url("/images/Contacto/instagram.svg");
+        background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    }
+
+    .listaimagen[name=discord] {
+        mask-image: url("/images/Contacto/Discord.svg");
+        -webkit-mask-image: url("/images/Contacto/Discord.svg");
+        background: #5865F1;
+    }
+
+    .listaimagen[name=whatsapp] {
+        mask-image: url("/images/Contacto/whatsapp.svg");
+        -webkit-mask-image: url("/images/Contacto/whatsapp.svg");
+        background: #25D366;
+    }

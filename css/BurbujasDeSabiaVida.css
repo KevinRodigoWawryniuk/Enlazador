@@ -1,0 +1,23 @@
+﻿
+.Burbujas {
+    position: absolute;
+    bottom: -10px;
+    background: #3D81C9;
+    box-shadow: 0px 0px 10px #ed81c9, 0px 0px 20px #fff;
+    border-radius: 50%;
+    z-index: 0;
+    animation: rise 6s linear infinite;
+}
+
+@keyframes rise {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    80% {
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(-1000px) scale(0);
+        opacity: 0;
+    }
+}
